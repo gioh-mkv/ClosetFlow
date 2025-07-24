@@ -47,22 +47,54 @@ public abstract class Item {
     }
     
     // Getters e Setters
-    public String getId() { return id; }
-    public String getNome() { return nome; }
-    public void setNome(String nome) { this.nome = nome; }
-    public String getCor() { return cor; }
-    public void setCor(String cor) { this.cor = cor; }
-    public String getTamanho() { return tamanho; }
-    public void setTamanho(String tamanho) { this.tamanho = tamanho; }
-    public String getLojaOrigem() { return lojaOrigem; }
-    public void setLojaOrigem(String lojaOrigem) { this.lojaOrigem = lojaOrigem; }
-    public Conservacao getConservacao() { return conservacao; }
-    public void setConservacao(Conservacao conservacao) { this.conservacao = conservacao; }
-    public String getCaminhoImagem() { return caminhoImagem; }
-    public void setCaminhoImagem(String caminhoImagem) { this.caminhoImagem = caminhoImagem; }
-    public TipoItem getTipo() { return tipo; }
-    public List<LocalDate> getUtilizacoes() { return utilizacoes; }
-    public LocalDate getDataCompra() { return dataCompra; }
+    public String getId(){ 
+    	return id; 
+    }
+    public String getNome(){
+    	return nome; 
+    }
+    public void setNome(String nome){
+    	this.nome = nome; 
+    }
+    public String getCor(){
+    	return cor; 
+    }
+    public void setCor(String cor){
+    	this.cor = cor; 
+    }
+    public String getTamanho(){
+    	return tamanho; 
+    }
+    public void setTamanho(String tamanho){
+    	this.tamanho = tamanho; 
+    }
+    public String getLojaOrigem(){
+    	return lojaOrigem; 
+    }
+    public void setLojaOrigem(String lojaOrigem){
+    	this.lojaOrigem = lojaOrigem; 
+    }
+    public Conservacao getConservacao(){
+    	return conservacao; 
+    }
+    public void setConservacao(Conservacao conservacao){
+    	this.conservacao = conservacao; 
+    }
+    public String getCaminhoImagem(){
+    	return caminhoImagem; 
+    }
+    public void setCaminhoImagem(String caminhoImagem){
+    	this.caminhoImagem = caminhoImagem; 
+    }
+    public TipoItem getTipo(){
+    	return tipo; 
+    }
+    public List<LocalDate> getUtilizacoes(){
+    	return utilizacoes; 
+    }
+    public LocalDate getDataCompra(){
+    	return dataCompra; 
+    }
     
     @Override
     public String toString() {
