@@ -8,7 +8,6 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
-
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonDeserializationContext;
@@ -71,7 +70,7 @@ public class PersistenciaService {
             return new ArrayList<>();
         }
     }
-    
+
     // Adapter para LocalDate
     private static class LocalDateAdapter implements JsonSerializer<LocalDate>, JsonDeserializer<LocalDate> {
         private static final DateTimeFormatter formatter = DateTimeFormatter.ISO_LOCAL_DATE;
