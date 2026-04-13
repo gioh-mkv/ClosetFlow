@@ -28,29 +28,29 @@ O **ClosetFlor** é um sistema de gestão de vestuário pessoal com interface gr
 
 ### Windows
 
-1. Faça o download dos arquivos `gvp.jar` e `gvp.bat`
+1. Faça o download dos arquivos `ClosetFlow.jar` e `ClosetFlow.bat`
 2. Coloque ambos na mesma pasta
-3. Dê duplo clique em `gvp.bat`
+3. Dê duplo clique em `ClosetFlow.bat`
 
 > Alternativamente, execute diretamente via terminal:
 > ```cmd
-> java -jar gvp.jar
+> java -jar ClosetFlow.jar
 > ```
 
 ### Linux / macOS
 
-1. Faça o download dos arquivos `gvp.jar` e `gvp.sh`
+1. Faça o download dos arquivos `ClosetFlow.jar` e `ClosetFlow.sh`
 2. Coloque ambos na mesma pasta
 3. Torne o script executável e execute:
 
 ```bash
-chmod +x gvp.sh
-./gvp.sh
+chmod +x ClosetFlow.sh
+./ClosetFlow.sh
 ```
 
 > Alternativamente:
 > ```bash
-> java -jar gvp.jar
+> java -jar ClosetFlow.jar
 > ```
 
 ---
@@ -82,7 +82,7 @@ echo "Main-Class: gui.MainFrame" > manifest.mf
 jar cfm gvp.jar manifest.mf -C build .
 
 # 5. Execute
-java -jar gvp.jar
+java -jar ClosetFlow.jar
 ```
 
 ---
@@ -117,15 +117,15 @@ Gestor-de-Vestuario/
 │       └── PersistenciaService.java
 ├── classpath/
 │   └── gson-2.10.1.jar       # Dependência para serialização JSON
-├── gvp.jar                   # Executável (gerado após compilação)
-├── gvp.sh                    # Launcher Linux/macOS
-├── gvp.bat                   # Launcher Windows
+├── ClosetFlow.jar                   # Executável (gerado após compilação)
+├── ClosetFlow.sh                    # Launcher Linux/macOS
+├── ClosetFlow.bat                   # Launcher Windows
 └── README.md
 ```
 
 ### Dados Salvos
 
-Os dados são persistidos automaticamente na pasta `dados/` ao lado do `gvp.jar`:
+Os dados são persistidos automaticamente na pasta `dados/` ao lado do `ClosetFlow.jar`:
 
 ```
 dados/
