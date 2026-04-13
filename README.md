@@ -1,4 +1,4 @@
-# 👗 GVP — Gestor de Vestuário Pessoal
+# 👗 ClosetFlow
 
 > Aplicação desktop em Java para organizar e acompanhar o seu guarda-roupa de forma inteligente.
 
@@ -6,7 +6,7 @@
 
 ## 📋 Sobre o Projeto
 
-O **GVP** é um sistema de gestão de vestuário pessoal com interface gráfica (Swing), voltado para quem deseja ter controle completo sobre suas roupas e acessórios. Com ele é possível cadastrar peças, montar looks, registrar lavagens, controlar empréstimos e visualizar estatísticas de uso — tudo salvo localmente em JSON.
+O **ClosetFlor** é um sistema de gestão de vestuário pessoal com interface gráfica (Swing), voltado para quem deseja ter controle completo sobre suas roupas e acessórios. Com ele é possível cadastrar peças, montar looks, registrar lavagens, controlar empréstimos e visualizar estatísticas de uso — tudo salvo localmente em JSON.
 
 ### Funcionalidades
 
